@@ -2,4 +2,7 @@
 <resources>
     <dimen name="TextSize">20sp</dimen>
     <dimen name="textview_size">50sp</dimen>
+    <dimen name="textSize_land">20sp</dimen>
+    <dimen name="txtsize_land_view">50sp</dimen>
+
 </resources>

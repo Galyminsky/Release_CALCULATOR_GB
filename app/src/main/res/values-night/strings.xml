@@ -14,4 +14,22 @@
     <string name="zero">0</string>
     <string name="equals">=</string>
     <string name="nine">9</string>
+    <string name="space_land" />
+    <string name="eight_land">8</string>
+    <string name="equals_land">=</string>
+    <string name="plus_land">+</string>
+    <string name="one_land">1</string>
+    <string name="nine_land">9</string>
+    <string name="four_land">4</string>
+    <string name="multiply_land">*</string>
+    <string name="devision_land">/</string>
+    <string name="reset_land">C</string>
+    <string name="three_land">3</string>
+    <string name="minus_land">-</string>
+    <string name="two_land">2</string>
+    <string name="six_land">6</string>
+    <string name="seven_land">7</string>
+    <string name="five_land">5</string>
+    <string name="zero_land">0</string>
+
 </resources>
