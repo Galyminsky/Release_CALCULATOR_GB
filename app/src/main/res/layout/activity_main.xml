@@ -9,6 +9,21 @@
     tools:context=".MainActivity">
 
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GalyminskyHomeWork_4"
+        android:textColor="@color/red"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.149">
+
+    </TextView>
+
     <EditText
         android:id="@+id/text"
         android:layout_width="wrap_content"
@@ -231,5 +246,7 @@
         app:layout_constraintEnd_toStartOf="@+id/division"
         app:layout_constraintStart_toEndOf="@+id/eight"
         app:layout_constraintTop_toBottomOf="@+id/minus" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
