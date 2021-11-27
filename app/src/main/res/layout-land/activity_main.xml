@@ -16,12 +16,13 @@
         android:text="@string/space_land"
         android:textColor="@color/purple_500"
         android:textSize="@dimen/txtsize_land_view"
+        style="@style/DaysLetter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.825"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.040" />
+        app:layout_constraintVertical_bias="0.145" />
 
     <GridLayout
         android:layout_width="wrap_content"
@@ -31,7 +32,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.73">
+        app:layout_constraintVertical_bias="0.75">
 
         <Button
             android:id="@+id/one"
@@ -39,8 +40,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="2dp"
             android:text="@string/one_land"
-            android:textColor="@color/black"
-            android:textSize="@dimen/textSize_land"
+            style="@style/DaysLetter"
             tools:layout_editor_absoluteX="185dp"
             tools:layout_editor_absoluteY="345dp" />
 
@@ -50,8 +50,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="2dp"
             android:text="@string/two_land"
-            android:textColor="@color/black"
-            android:textSize="@dimen/textSize_land"
+            style="@style/DaysLetter"
             tools:layout_editor_absoluteX="275dp"
             tools:layout_editor_absoluteY="345dp" />
 
@@ -61,8 +60,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="2dp"
             android:text="@string/three_land"
-            android:textColor="@color/black"
-            android:textSize="@dimen/textSize_land"
+            style="@style/DaysLetter"
             tools:layout_editor_absoluteX="365dp"
             tools:layout_editor_absoluteY="345dp" />
 
@@ -73,8 +71,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="2dp"
             android:text="@string/four_land"
-            android:textColor="@color/black"
-            android:textSize="@dimen/textSize_land"
+            style="@style/DaysLetter"
             tools:layout_editor_absoluteX="185dp"
             tools:layout_editor_absoluteY="300dp" />
 
@@ -85,8 +82,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="2dp"
             android:text="@string/plus_land"
-            android:textColor="@color/black"
-            android:textSize="@dimen/textSize_land"
+            style="@style/DaysLetter"
             tools:layout_editor_absoluteX="455dp"
             tools:layout_editor_absoluteY="255dp" />
 
@@ -97,8 +93,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="2dp"
             android:text="@string/five_land"
-            android:textColor="@color/black"
-            android:textSize="@dimen/textSize_land"
+            style="@style/DaysLetter"
             tools:layout_editor_absoluteX="275dp"
             tools:layout_editor_absoluteY="300dp" />
 
@@ -108,8 +103,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="2dp"
             android:text="@string/six_land"
-            android:textColor="@color/black"
-            android:textSize="@dimen/textSize_land"
+            style="@style/DaysLetter"
             tools:layout_editor_absoluteX="365dp"
             tools:layout_editor_absoluteY="300dp" />
 
@@ -119,8 +113,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="2dp"
             android:text="@string/seven_land"
-            android:textColor="@color/black"
-            android:textSize="@dimen/textSize_land"
+            style="@style/DaysLetter"
             tools:layout_editor_absoluteX="185dp"
             tools:layout_editor_absoluteY="255dp" />
 
@@ -130,8 +123,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="2dp"
             android:text="@string/eight_land"
-            android:textColor="@color/black"
-            android:textSize="@dimen/textSize_land"
+            style="@style/DaysLetter"
             tools:layout_editor_absoluteX="275dp"
             tools:layout_editor_absoluteY="255dp" />
 
@@ -141,8 +133,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="2dp"
             android:text="@string/minus_land"
-            android:textColor="@color/black"
-            android:textSize="@dimen/textSize_land"
+            style="@style/DaysLetter"
             tools:layout_editor_absoluteX="455dp"
             tools:layout_editor_absoluteY="300dp" />
 
@@ -153,8 +144,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="2dp"
             android:text="@string/nine_land"
-            android:textColor="@color/black"
-            android:textSize="@dimen/textSize_land"
+            style="@style/DaysLetter"
             tools:layout_editor_absoluteX="365dp"
             tools:layout_editor_absoluteY="255dp" />
 
@@ -164,8 +154,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="2dp"
             android:text="@string/zero_land"
-            android:textColor="@color/black"
-            android:textSize="@dimen/textSize_land"
+            style="@style/DaysLetter"
             tools:layout_editor_absoluteX="455dp"
             tools:layout_editor_absoluteY="345dp" />
 
@@ -176,7 +165,7 @@
             android:layout_margin="2dp"
             android:text="@string/equals_land"
             android:textColor="@color/red"
-            android:textSize="@dimen/textSize_land"
+            style="@style/DaysLetter"
             tools:layout_editor_absoluteX="545dp"
             tools:layout_editor_absoluteY="345dp" />
 
@@ -186,8 +175,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="2dp"
             android:text="@string/multiply_land"
-            android:textColor="@color/black"
-            android:textSize="@dimen/textSize_land"
+            style="@style/DaysLetter"
             tools:layout_editor_absoluteX="545dp"
             tools:layout_editor_absoluteY="255dp" />
 
@@ -197,8 +185,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="2dp"
             android:text="@string/devision_land"
-            android:textColor="@color/black"
-            android:textSize="@dimen/textSize_land"
+            style="@style/DaysLetter"
             tools:layout_editor_absoluteX="545dp"
             tools:layout_editor_absoluteY="300dp" />
 
@@ -211,7 +198,7 @@
             android:layout_margin="2dp"
             android:text="@string/reset_land"
             android:textColor="@color/red"
-            android:textSize="@dimen/textSize_land" />
+            style="@style/DaysLetter"/>
 
     </GridLayout>
 

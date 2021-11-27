@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
- <style name="ColorBtn">
-     <item name="colorOnSecondary">@color/black</item>
+ <style name="DaysLetter">
+     <item name="android:fontFamily">@font/days_later</item>
+     <item name="android:textSize">30sp</item>
+     <item name="android:textColor">@color/black</item>
  </style>
+
+    <style name="WaltoGrahp">
+        <item name="android:fontFamily">@font/walto_graph</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/red</item>
+    </style>
 
 </resources>

@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Release Calculator</string>
-    <string name="С">С</string>
+    <string name="С">c</string>
     <string name="plus">+</string>
     <string name="minus">-</string>
     <string name="seven">7</string>
@@ -25,7 +25,7 @@
     <string name="four_land">4</string>
     <string name="multiply_land">*</string>
     <string name="devision_land">/</string>
-    <string name="reset_land">C</string>
+    <string name="reset_land">c</string>
     <string name="three_land">3</string>
     <string name="minus_land">-</string>
     <string name="two_land">2</string>
