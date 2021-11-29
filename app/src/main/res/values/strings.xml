@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">Release Calculator</string>
-    <string name="С">c</string>
     <string name="plus">+</string>
     <string name="minus">-</string>
     <string name="seven">7</string>
@@ -33,6 +32,8 @@
     <string name="seven_land">7</string>
     <string name="five_land">5</string>
     <string name="zero_land">0</string>
+    <string name="galyminsky_homework_4">Galyminsky_HomeWork_4</string>
+    <string name="reset">c</string>
 
 
 </resources>

@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/pic_2"
     android:orientation="vertical"
+    android:background="@drawable/pic_2_night"
     tools:context=".MainActivity">
 
 
@@ -14,199 +15,200 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=""
-        android:textColor="@color/purple_500"
-        android:textSize="@dimen/textview_size"
+        style="@style/DaysLetter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
+
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/reset"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="3dp"
-        android:text="@string/С"
+        android:text="@string/reset"
         android:textColor="@color/red"
-        android:textSize="@dimen/TextSize"
+        style="@style/DaysLetter"
         app:layout_constraintBottom_toBottomOf="@+id/minus"
         app:layout_constraintEnd_toStartOf="@+id/plus"
         app:layout_constraintHorizontal_chainStyle="packed"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/minus" />
+        app:layout_constraintTop_toTopOf="@+id/minus"
+        app:cornerRadius="15dp"/>
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/plus"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="3dp"
         android:text="@string/plus"
-        android:textColor="@color/black"
-        android:textSize="@dimen/TextSize"
+        style="@style/DaysLetter"
         app:layout_constraintEnd_toStartOf="@+id/minus"
         app:layout_constraintStart_toEndOf="@+id/reset"
-        app:layout_constraintTop_toTopOf="@+id/reset" />
+        app:layout_constraintTop_toTopOf="@+id/reset"
+        app:cornerRadius="15dp"/>
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/minus"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="3dp"
         android:text="@string/minus"
-        android:textColor="@color/black"
-        android:textSize="@dimen/TextSize"
+        style="@style/DaysLetter"
         app:layout_constraintEnd_toStartOf="@+id/multiply"
         app:layout_constraintStart_toEndOf="@+id/plus"
-        app:layout_constraintTop_toTopOf="@+id/multiply" />
+        app:layout_constraintTop_toTopOf="@+id/multiply"
+        app:cornerRadius="15dp"/>
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/seven"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="1dp"
         android:layout_marginEnd="3dp"
         android:text="@string/seven"
-        android:textColor="@color/black"
-        android:textSize="@dimen/TextSize"
+        style="@style/DaysLetter"
         app:layout_constraintEnd_toStartOf="@+id/eight"
         app:layout_constraintHorizontal_chainStyle="packed"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/reset" />
+        app:layout_constraintTop_toBottomOf="@+id/reset"
+        app:cornerRadius="15dp"/>
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/eight"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="1dp"
         android:layout_marginEnd="3dp"
         android:text="@string/eight"
-        android:textColor="@color/black"
-        android:textSize="@dimen/TextSize"
+        style="@style/DaysLetter"
         app:layout_constraintEnd_toStartOf="@+id/nine"
         app:layout_constraintStart_toEndOf="@+id/seven"
-        app:layout_constraintTop_toBottomOf="@+id/plus" />
+        app:layout_constraintTop_toBottomOf="@+id/plus"
+        app:cornerRadius="15dp"/>
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/multiply"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="3dp"
         android:layout_marginBottom="233dp"
         android:text="@string/multiply"
-        android:textColor="@color/black"
-        android:textSize="@dimen/TextSize"
+        style="@style/DaysLetter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/minus" />
+        app:layout_constraintStart_toEndOf="@+id/minus"
+        app:cornerRadius="15dp"/>
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/four"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="1dp"
         android:layout_marginEnd="3dp"
         android:text="@string/four"
-        android:textColor="@color/black"
-        android:textSize="@dimen/TextSize"
+        style="@style/DaysLetter"
         app:layout_constraintEnd_toStartOf="@+id/five"
         app:layout_constraintHorizontal_chainStyle="packed"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/seven" />
+        app:layout_constraintTop_toBottomOf="@+id/seven"
+        app:cornerRadius="15dp"/>
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/five"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="1dp"
         android:layout_marginEnd="3dp"
         android:text="@string/five"
-        android:textColor="@color/black"
-        android:textSize="@dimen/TextSize"
+        style="@style/DaysLetter"
         app:layout_constraintEnd_toStartOf="@+id/six"
         app:layout_constraintStart_toEndOf="@+id/four"
-        app:layout_constraintTop_toBottomOf="@+id/eight" />
+        app:layout_constraintTop_toBottomOf="@+id/eight"
+        app:cornerRadius="15dp"/>
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/division"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="1dp"
         android:layout_marginEnd="3dp"
         android:text="@string/division"
-        android:textColor="@color/black"
-        android:textSize="@dimen/TextSize"
+        style="@style/DaysLetter"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/nine"
-        app:layout_constraintTop_toBottomOf="@+id/multiply" />
+        app:layout_constraintTop_toBottomOf="@+id/multiply"
+        app:cornerRadius="15dp"/>
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/one"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="1dp"
         android:layout_marginEnd="3dp"
         android:text="@string/one"
-        android:textColor="@color/black"
-        android:textSize="@dimen/TextSize"
+        style="@style/DaysLetter"
         app:layout_constraintEnd_toStartOf="@+id/two"
         app:layout_constraintHorizontal_chainStyle="packed"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/four" />
+        app:layout_constraintTop_toBottomOf="@+id/four"
+        app:cornerRadius="15dp"/>
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/two"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="1dp"
         android:layout_marginEnd="3dp"
         android:text="@string/two"
-        android:textColor="@color/black"
-        android:textSize="@dimen/TextSize"
+        style="@style/DaysLetter"
         app:layout_constraintEnd_toStartOf="@+id/three"
         app:layout_constraintStart_toEndOf="@+id/one"
-        app:layout_constraintTop_toBottomOf="@+id/five" />
+        app:layout_constraintTop_toBottomOf="@+id/five"
+        app:cornerRadius="15dp"/>
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/six"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="1dp"
         android:layout_marginEnd="3dp"
         android:text="@string/six"
-        android:textColor="@color/black"
-        android:textSize="@dimen/TextSize"
+        style="@style/DaysLetter"
         app:layout_constraintEnd_toStartOf="@+id/equals"
         app:layout_constraintStart_toEndOf="@+id/five"
-        app:layout_constraintTop_toBottomOf="@+id/nine" />
+        app:layout_constraintTop_toBottomOf="@+id/nine"
+        app:cornerRadius="15dp"/>
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/three"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="1dp"
         android:layout_marginEnd="3dp"
         android:text="@string/three"
-        android:textColor="@color/black"
-        android:textSize="@dimen/TextSize"
+        style="@style/DaysLetter"
         app:layout_constraintEnd_toStartOf="@+id/zero"
         app:layout_constraintStart_toEndOf="@+id/two"
-        app:layout_constraintTop_toBottomOf="@+id/six" />
+        app:layout_constraintTop_toBottomOf="@+id/six"
+        app:cornerRadius="15dp"/>
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/zero"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="1dp"
         android:layout_marginEnd="3dp"
         android:text="@string/zero"
-        android:textColor="@color/black"
-        android:textSize="@dimen/TextSize"
+        style="@style/DaysLetter"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/three"
-        app:layout_constraintTop_toBottomOf="@+id/equals" />
+        app:layout_constraintTop_toBottomOf="@+id/equals"
+        app:cornerRadius="15dp"/>
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/equals"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -214,22 +216,23 @@
         android:layout_marginEnd="3dp"
         android:text="@string/equals"
         android:textColor="@color/red"
-        android:textSize="@dimen/TextSize"
+        style="@style/DaysLetter"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/six"
-        app:layout_constraintTop_toBottomOf="@+id/division" />
+        app:layout_constraintTop_toBottomOf="@+id/division"
+        app:cornerRadius="15dp"/>
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/nine"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="1dp"
         android:layout_marginEnd="3dp"
         android:text="@string/nine"
-        android:textColor="@color/black"
-        android:textSize="@dimen/TextSize"
+        style="@style/DaysLetter"
         app:layout_constraintEnd_toStartOf="@+id/division"
         app:layout_constraintStart_toEndOf="@+id/eight"
-        app:layout_constraintTop_toBottomOf="@+id/minus" />
+        app:layout_constraintTop_toBottomOf="@+id/minus"
+        app:cornerRadius="15dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

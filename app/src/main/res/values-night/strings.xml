@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="С">С</string>
+    <string name="C">С</string>
     <string name="plus">+</string>
     <string name="eight">8</string>
     <string name="multiply">*</string>
@@ -31,5 +31,6 @@
     <string name="seven_land">7</string>
     <string name="five_land">5</string>
     <string name="zero_land">0</string>
+    <string name="galyminsky_homework_4">Galyminsky_HomeWork_4</string>
 
 </resources>
