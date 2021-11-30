@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <style name="btn_calc" >
-        <item name="android:layout_width">0dp</item>
-        <item name="android:layout_height">match_parent</item>
-        <item name="android:layout_weight">1</item>
-        <item name="android:textSize">15sp</item>
 
+<resources>
+
+ <style name="DaysLetter" >
+     <item name="android:fontFamily">@font/days_later</item>
+     <item name="android:textSize">30sp</item>
+     <item name="android:textColor">@color/black</item>
+     <item name="backgroundTint">@color/days_letter_night</item>
+
+
+ </style>
+
+    <style name="WaltoGrahp">
+        <item name="android:fontFamily">@font/walto_graph</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/red</item>
+        <item name="backgroundTint">@color/days_letter</item>
     </style>
+
 </resources>
